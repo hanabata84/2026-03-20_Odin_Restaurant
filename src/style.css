@@ -64,3 +64,15 @@ nav {
 #white{
 	color: rgb(255, 252, 239);
 }
+
+.overlay {
+	margin-top: 50px;
+	margin-left: 200px;
+	height: 70vh;
+	background-color: rgba(41, 21, 13, 0.675);
+	border-radius: 10px;
+}
+
+.overlay h2 {
+	border-bottom: 2px solid rgb(255, 210, 148);
+}

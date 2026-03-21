@@ -1,4 +1,12 @@
-const p1 = document.createElement('p');
-p1.textContent = 'Menu';
+const menuOverlay = document.createElement('div');
+menuOverlay.setAttribute('class', 'overlay')
 
-export {p1}
+const h2 = document.createElement('h2');
+h2.textContent = 'Menu';
+
+const p = document.createElement('p');
+p.textContent = 'pizza | toppings | cheese'
+
+menuOverlay.appendChild(h2)
+menuOverlay.appendChild(p)
+export {menuOverlay}

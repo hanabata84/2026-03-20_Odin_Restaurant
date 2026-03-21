@@ -1,6 +1,6 @@
 import "./style.css"
 import { heroDiv } from "./homePage.js"
-import { p1 } from "./menuPage.js";
+import { menuOverlay } from "./menuPage.js";
 import { p2 } from "./aboutPage.js";
 
 const content = document.querySelector('#content');
@@ -15,7 +15,7 @@ homeBtn.addEventListener('click', ()=> {
 const menuBtn = document.querySelector('#menu-btn');
 menuBtn.addEventListener('click', ()=>{
     content.replaceChildren();
-    content.appendChild(p1);
+    content.appendChild(menuOverlay);
 })
 
 const aboutBtn = document.querySelector('#about-btn');
