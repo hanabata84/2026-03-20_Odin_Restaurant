@@ -52,3 +52,15 @@ nav {
 	font-size: 24px;
 	display: flex;
 }
+
+#hero{
+	font-size: 40px;
+	width: 270px;
+	margin-left: auto;
+	margin-top: 50px;
+	font-weight: 700;
+}
+
+#white{
+	color: rgb(255, 252, 239);
+}
