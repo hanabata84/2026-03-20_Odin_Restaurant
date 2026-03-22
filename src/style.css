@@ -84,7 +84,7 @@ nav {
 	font-size: 36px;
 }
 
-#menu-container {
+#menu-container{
 	background-color: rgb(42, 33, 30);
 	display: flex;
 	justify-content: center;
@@ -92,6 +92,13 @@ nav {
 	margin: 20px 0 0 30px;
 	border-top-left-radius: 10px;
   	border-bottom-left-radius: 10px;
+}
+
+#about-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	width: 800px;
 }
 
 .item-cont {
@@ -122,5 +129,33 @@ nav {
 	margin-top: 10px;
 	padding: 10px 20px;
 	font-size: 20px;
+	color: rgb(255, 168, 38);
+}
+
+#about-container img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	/* padding: 5px; */
+}
+
+#about-item {
+	width: 220px;
+	background-color: rgb(42, 33, 30);
+	padding: 15px;
+	margin: 0 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#about-item p{
+	font-size: 12px;
+}
+
+#about-item h3{
+	font-size: 32px;
+	margin: 10px 0;
 	color: rgb(255, 168, 38);
 }

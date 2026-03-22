@@ -1,6 +1,5 @@
 import "./style.css"
 import { heroDiv } from "./homePage.js"
-// import { menuOverlay } from "./aboutPage.js";
 import { createOverlay } from "./overlayPage.js";
 
 const content = document.querySelector('#content');
