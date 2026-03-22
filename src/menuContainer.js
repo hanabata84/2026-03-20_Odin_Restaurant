@@ -11,6 +11,7 @@ pizza.forEach(item => {
     img.src = item.img;
 
     const pName = document.createElement('p');
+    pName.setAttribute('class', 'item-name')
     pName.textContent = item.name;
 
     const pDesc = document.createElement('p');
@@ -22,7 +23,8 @@ pizza.forEach(item => {
     
 
     const pPrice = document.createElement('p');
-    pPrice.textContent = item.price;
+    pPrice.setAttribute('class', 'item-price')
+    pPrice.textContent = `\u00A5 ${item.price}`;
 
     itemDiv.appendChild(img)
     itemDiv.appendChild(pName)
