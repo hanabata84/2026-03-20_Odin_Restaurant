@@ -22,6 +22,7 @@
   "homepage": "https://hanabata84.github.io/2026-03-20_Odin_Restaurant/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
+    "prettier": "^3.8.1",
     "vite": "^8.0.1"
   }
 }

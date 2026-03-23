@@ -1,38 +1,36 @@
-import { pizza } from "./pizzaMenu.js";
+import { pizza } from './pizzaMenu.js';
 
 const menuDiv = document.createElement('div');
 menuDiv.setAttribute('id', 'menu-container');
 
-pizza.forEach(item => {
-    const itemDiv = document.createElement('div');
-    itemDiv.setAttribute('class', 'item-cont');
-    
-    const img = document.createElement('img');
-    img.src = item.img;
+pizza.forEach((item) => {
+  const itemDiv = document.createElement('div');
+  itemDiv.setAttribute('class', 'item-cont');
 
-    const pName = document.createElement('p');
-    pName.setAttribute('class', 'item-name')
-    pName.textContent = item.name;
+  const img = document.createElement('img');
+  img.src = item.img;
 
-    const pDesc = document.createElement('p');
-    if(item.description.length > 100) {
-        pDesc.textContent = `${item.description.substring(0, 100)}...read more`
-    } else {
-        pDesc.textContent = item.description;
-    }
-    
+  const pName = document.createElement('p');
+  pName.setAttribute('class', 'item-name');
+  pName.textContent = item.name;
 
-    const pPrice = document.createElement('p');
-    pPrice.setAttribute('class', 'item-price')
-    pPrice.textContent = `\u00A5 ${item.price}`;
+  const pDesc = document.createElement('p');
+  if (item.description.length > 100) {
+    pDesc.textContent = `${item.description.substring(0, 100)}...read more`;
+  } else {
+    pDesc.textContent = item.description;
+  }
 
-    itemDiv.appendChild(img)
-    itemDiv.appendChild(pName)
-    itemDiv.appendChild(pDesc)
-    itemDiv.appendChild(pPrice)
+  const pPrice = document.createElement('p');
+  pPrice.setAttribute('class', 'item-price');
+  pPrice.textContent = `\u00A5 ${item.price}`;
 
-    menuDiv.appendChild(itemDiv)
+  itemDiv.appendChild(img);
+  itemDiv.appendChild(pName);
+  itemDiv.appendChild(pDesc);
+  itemDiv.appendChild(pPrice);
+
+  menuDiv.appendChild(itemDiv);
 });
 
-
-export { menuDiv }
+export { menuDiv };

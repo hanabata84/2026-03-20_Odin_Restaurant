@@ -11,8 +11,8 @@ p2.textContent = 'Party Meets';
 heroDiv.appendChild(p2);
 
 const p3 = document.createElement('p');
-p3.textContent = 'Taste'
+p3.textContent = 'Taste';
 
 heroDiv.appendChild(p3);
 
-export { heroDiv }
+export { heroDiv };
