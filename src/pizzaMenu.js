@@ -1,23 +1,27 @@
+import pepperonciniImg from "./assets/pepperoncini.jpg"
+import margaritaImg from "./assets/margarita.jpg"
+import quatroImg from "./assets/quatro-cheese.jpg"
+
 const pizza = [
     {
         id: 1,
         name: "peperroncini",
         description: "Pizza topped with pepperoncini peppers, which are small, mild, tangy, and slightly spicy pickled peppers originally from Italy and Greece.  These peppers add a briny, zesty flavor that balances rich ingredients like mozzarella, garlic, onions, salami, or olives.",
-        img: "./src/assets/pepperoncini.jpg",
+        img: pepperonciniImg,
         price: 1500    
     },
     {
         id: 2,
         name: "margeritha",
         description: "a classic Italian dish, more accurately known as Margherita pizza, originating in Naples.  It is traditionally made with a thin crust topped with crushed tomatoes (often San Marzano), fresh mozzarella cheese, fresh basil leaves, and a drizzle of extra virgin olive oil.",
-        img: "./src/assets/margarita.jpg",
+        img: margaritaImg,
         price: 1200    
     },
     {
         id: 3,
         name: "quatro cheese",
         description: "a classic Italian pizza style meaning four cheeses in Italian.  It features a combination of four distinct cheeses, typically mozzarella, gorgonzola, fontina, and Parmigiano Reggiano, creating a rich, balanced, and creamy flavor profile.  The mozzarella acts as a base, maintaining humidity during baking to protect the other cheeses from excessive heat. Gorgonzola adds a bold, tangy depth, while fontina brings creaminess and Parmigiano Reggiano contributes a nutty, salty finish.",
-        img: "./src/assets/quatro-cheese.jpg",
+        img: quatroImg,
         price: 1200    
     }
 ]
