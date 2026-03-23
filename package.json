@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "2026 Odin Restaurant V2",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -21,7 +22,10 @@
   },
   "homepage": "https://hanabata84.github.io/2026-03-20_Odin_Restaurant/",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
     "gh-pages": "^6.3.0",
+    "globals": "^17.4.0",
     "prettier": "^3.8.1",
     "vite": "^8.0.1"
   }
