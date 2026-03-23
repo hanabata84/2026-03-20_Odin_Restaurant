@@ -1,6 +1,9 @@
 import aboutUsImg1 from './assets/about-us-cooking.jpg'
 import aboutUsImg2 from './assets/about-us-cooking2.jpg'
 
+const aboutMainDiv = document.createElement('div');
+aboutMainDiv.setAttribute('id', 'about-main');
+
 const aboutDiv = document.createElement('div');
 aboutDiv.setAttribute('id', 'about-container');
 
@@ -22,6 +25,14 @@ h3.textContent = "From the Soul of Italy"
 const p2 = document.createElement('p')
 p2.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 
+const contactUsDiv = document.createElement('div');
+contactUsDiv.setAttribute('id', 'contact-us');
+
+const contactBtn = document.createElement('button');
+contactBtn.textContent = 'Contact Us';
+
+contactUsDiv.append(contactBtn);
+
 aboutDescDiv.appendChild(p1)
 aboutDescDiv.appendChild(h3)
 aboutDescDiv.appendChild(p2)
@@ -30,5 +41,8 @@ aboutDiv.appendChild(aboutImg1)
 aboutDiv.appendChild(aboutDescDiv)
 aboutDiv.appendChild(aboutImg2)
 
+aboutMainDiv.appendChild(aboutDiv)
+aboutMainDiv.appendChild(contactUsDiv)
 
-export { aboutDiv }
+
+export { aboutMainDiv }

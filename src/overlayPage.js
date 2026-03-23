@@ -1,5 +1,5 @@
 import { menuDiv } from "./menuContainer.js";
-import { aboutDiv } from "./aboutPage.js";
+import { aboutMainDiv } from "./aboutPage.js";
 
 function createOverlay(page) {
     const overlay = document.createElement('div');
@@ -19,7 +19,7 @@ function createOverlay(page) {
         p.textContent = 'special moments'
         overlay.appendChild(h2);
         overlay.appendChild(p);
-        overlay.appendChild(aboutDiv)
+        overlay.appendChild(aboutMainDiv)
     }
 
     return overlay;

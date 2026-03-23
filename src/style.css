@@ -159,3 +159,25 @@ nav {
 	margin: 10px 0;
 	color: rgb(255, 168, 38);
 }
+
+#contact-us{
+	background-image: url('./assets/contact-us-banner.jpg');
+	background-size: cover;
+	background-position: 25% 65%;
+	height: 250px;
+	margin-top: 5px;
+}
+
+#contact-us button{
+	width: 100px;
+	border: 2px solid rgb(45, 14, 4);
+	border-radius: 10px;
+	margin: 180px 0 10px 650px;
+	color: rgb(45, 14, 4);
+	font-weight: 800;
+}
+
+#contact-us button:hover{
+	background-color: rgba(241, 153, 30, 0.596);
+	border-radius: 10px;
+}
